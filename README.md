@@ -28,7 +28,7 @@ Description:
 
 Vulnerability #1: Username Enumeration
 
-Description:
+Description: The developer used different classes when failing to login with a username belonging to an account and one that does not. It is also easy to spot do to one class using bold lettering while one is plaintext. This vulnerability can be exploited to find usernames in the system.
 
 <img src="greenenumeration.gif">
 
