@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
-Description:
+Description: The developer has not sanitized the code of the salespersons' pages and allows the injection of SQL into the URL in which to alter the page. For this example I added a sleep function, which stalls the page from loading for a specified amount of seconds.
 
-<img src="blue-vuln1.gif">
+<img src="blueSQL.gif">
 
 
 ## Green
