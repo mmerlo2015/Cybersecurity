@@ -41,11 +41,11 @@ Description: The developer has not fully sanitized the code feedback section and
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description:In the "Find a Salesperson" page, each salesperson's page is denoted with a numberical ID. Green and Blue have code that prevents users from going to pages not listed, however Red is missing that code and allows users to go to pages with sensitive information not normally available. 
 
-<img src="red-vuln1.gif">
+<img src="redIDOR.gif">
 
 
 ## Notes
