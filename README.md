@@ -32,6 +32,12 @@ Description: The developer used different classes when failing to login with a u
 
 <img src="greenenumeration.gif">
 
+Vulnerability #2: Cross-Site Scripting
+
+Description: The developer has not fully sanitized the code feedback section and it is vulnerable to stores XSS attacks. This can be exploited by adding script in your feedback.
+
+<img src="greenXSS.gif">
+
 
 ## Red
 
